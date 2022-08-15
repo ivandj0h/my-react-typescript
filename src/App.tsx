@@ -6,6 +6,7 @@ import Counter from './component/Counter';
 import { Employee } from './component/Employee';
 import { EmployeeClass } from './component/EmployeeClass';
 import Greeting from './component/Greeting';
+import LoginForm from './component/LoginForm';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
               {/* <Employee /> */}
               {/* <EmployeeClass /> */}
               {/* <Counter /> */}
-              <Greeting />
+              {/* <Greeting /> */}
+              <LoginForm />
             </div>
           </div>
         </div>
