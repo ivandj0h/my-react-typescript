@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
+import Counter from './component/Counter';
 // import Customer from './component/Customer';
 // import CustomerClass from './component/CustomerClass';
 import { Employee } from './component/Employee';
 import { EmployeeClass } from './component/EmployeeClass';
+import Greeting from './component/Greeting';
 
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
             <div className="col-12">
               {/* <Customer name={'Juna'} age={7} /> */}
               {/* <CustomerClass name={'dave'} age={12} /> */}
-              <Employee />
-              <EmployeeClass />
+              {/* <Employee /> */}
+              {/* <EmployeeClass /> */}
+              {/* <Counter /> */}
+              <Greeting />
             </div>
           </div>
         </div>
